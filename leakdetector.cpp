@@ -1,8 +1,7 @@
-#ifndef REL_MODE
-
 #include "leakdetector.h"
 
 
+#ifndef REL_MODE
 
 bool Dbg::LeakDbg::checking = false;
 std::vector<Dbg::Pair> Dbg::LeakDbg::stack = std::vector<Dbg::Pair>();
