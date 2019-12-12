@@ -6,5 +6,5 @@ I recommend to use other well tested tools like valgrind and memory leak detecti
 
 In release mode define "REL_MODE" in the header file, or just comment the code so the macros are void
 
-##### Note
+# Note
 This is not a well tested solution or a replacement for the already existent tools, this is just for me to track leaks while developing so I don't have to use valgrind every time I compile, because it slows things for me.
